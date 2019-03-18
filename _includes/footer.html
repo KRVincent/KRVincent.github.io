@@ -1,0 +1,24 @@
+
+<div class="py-5 border-top">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm">
+        <ul class="list-unstyled">
+          <li>
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+<span id="email-text" style="cursor: pointer" onclick="this.textContent = ('krvincent' + '@protonmail' + String.fromCharCode(46) + 'com'); this.onclick = null; this.style.cursor='default';document.getElementById('email-text').focus();document.getElementById('email-text').select();">Click for email address</a></span>
+
+        </ul>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
